@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin-bottom: 20px;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+.search-bar input {
+    width: 300px;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+
+/* Navigation Bar */
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+    margin: 0 10px;
+}
+
+/* Hero Section */
+.hero {
+    background: #f8f9fa;
+}
+
+.hero-banner {
+    position: relative;
+}
+
+.hero-banner img{
+    height: 250px;
+}
+
+.hero-banner .banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: #fff;
+}
+
+.hero-banner .banner-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+    left: 50px;
+}
+
+.hero-banner .banner-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-banner .banner-text a {
+    font-size: 1rem;
+}
+
+/* Categories Section */
+.categories .category img {
+    height: 150px;
+   
+}
+
+.categories .category h4 {
+    margin-bottom: 10px;
+    text-decoration: dashed;
+}
+
+
+/* Blog Posts Section */
+.blog-post img {
+    height: 200px;
+}
+
+.blog-post h4 {
+    margin-bottom: 10px;
+}
+
+/* New Products Section */
+.new-products .product img {
+    height: 150px;
+}
+
+.new-products .product h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.bg-dark-text-light-py-4{
+
+    background-color: #2d66c9;
+}
+
+footer {
+    background-color: #2d66c9;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #b9b6b6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    background-color: #03366c;
+    padding: 50px;
+}
+
+.contact {
+    text-align: center;
+    margin: 80px;
+}
+
+.social-media a img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.newsletter{
+    position: absolute;
+    right: 100px;
+   
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.payment-methods img {
+    width: 50px;
+    margin: 0 10px;
+}
